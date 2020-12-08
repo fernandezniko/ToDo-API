@@ -14,7 +14,7 @@ router.post('/users', async (req, res) => {
         sendWelcomeEmail(user.email, user.name)
         const token = await user.generateAuthToken()
 
-        res.status(200).send({ user, token })
+        res.status(201).send({ user, token })
     }
     catch (e) {
         res.status(400).send(e)
@@ -149,7 +149,7 @@ router.get('/users/:id/avatar', async (req, res) => {
 
     }
     catch (e) {
-        res.status(400).send()
+        res.status(404).send()
     }
 })
 
