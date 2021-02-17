@@ -16,7 +16,7 @@ Fue desarrollada utilizando:
 
 ![](https://github.com/fernandezniko/task-manager-api/blob/master/public/img/2.PNG?raw=true)
 
-La aplicacion de encuentra actualmente deployada en el siguiente link: 
+La aplicacion se encuentra en el siguiente link: 
 [Task-Manager-Api](https://fernandez-weather-application.herokuapp.com/)
 
 ## API Endpoint
