@@ -8,7 +8,7 @@ Fue desarrollada utilizando:
 * Javascrip async/await promises jsonwebtoken
 * Express
 * Mongo DB, Mongoose
-* Mongo DB compass para el cluster en AWS para la base de datos de produccion 
+* Mongo DB Atlas  
 * SendGrid API para envios de mail's
 * Postman para las pruebas de los HTTP request a los endpoints tanto para entorno local como para produccion
 * Heroku
