@@ -1,4 +1,4 @@
-# task-manager-api with node js and mongoDB
+# ToDo API with node js and mongoDB
 
 Una aplicacion backend REST API para manejar tareas para distintos usuarios. Cuenta con todas las operaciones CRUD para tareas y usuarios, registro y login para usuarios, autenticacion, posibilidad de subir una imagen de avatar.
 
