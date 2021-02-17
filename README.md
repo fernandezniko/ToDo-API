@@ -1,4 +1,4 @@
-# ToDo API desarrollada con node js y mongoDB
+# ToDo API 
 
 Una aplicacion backend REST API para manejar tareas para distintos usuarios. Cuenta con todas las operaciones CRUD para tareas y usuarios, registro y login para usuarios, autenticacion, posibilidad de subir una imagen de avatar.
 
