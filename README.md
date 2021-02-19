@@ -12,7 +12,7 @@ Fue desarrollada utilizando:
 * SendGrid API para envios de mail's
 * Postman para las pruebas de los HTTP request a los endpoints tanto para entorno local como para produccion
 * Heroku
-* Test con Jtest, supertest
+* Test con Jest, Supertest
 
 ![](https://github.com/fernandezniko/task-manager-api/blob/master/public/img/2.PNG?raw=true)
 
