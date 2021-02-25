@@ -20,9 +20,6 @@ router.post('/tasks', auth, async (req, res) => {
     }
 })
 
-//GET /tasks?completed=true
-//GET /tasks?limit=10&skip=0
-//GET /tasks?sortBy=createdAt_asc
 router.get('/tasks', auth, async (req, res) => {
     const match = {}
     const sort = {}
@@ -68,7 +65,7 @@ router.get('/tasks/:id', auth, async (req, res) => {
         res.send(task)
     }
     catch (e) {
-        //console.log(e)
+
         if (e.message.indexOf('Cast to ObjectId failed') !== -1) {
             return res.status(404).send()
         }

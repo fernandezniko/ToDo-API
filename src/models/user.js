@@ -16,7 +16,6 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true,
         lowercase: true,
-        //EC6 method definition sintax creo
         validate(value) {
             if (!validator.isEmail(value)) {
                 throw new Error('Email is invalid!')
@@ -104,7 +103,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
 //Hash the plain text password before saving 
 userSchema.pre('save', async function (next) {
     const user = this
-    //console.log('BEFORE SAVING')
+
     if (user.isModified('password')) {
         user.password = await bcrypt.hash(user.password, 8)
     }
